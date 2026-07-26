@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ประวัติส่วนตัว | ธนยศ น้อยจันทร์</title>
+<title>ประวัติการศึกษา | ธนยศ น้อยจันทร์</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,8 +20,8 @@
   <button class="nav-toggle" aria-label="เปิดเมนู">&#9776;</button>
   <ul class="navlinks">
     <li><a href="index.html">หน้าหลัก</a></li>
-    <li><a href="personal.html" aria-current="page">ประวัติส่วนตัว</a></li>
-    <li><a href="education.html">ประวัติการศึกษา</a></li>
+    <li><a href="personal.html">ประวัติส่วนตัว</a></li>
+    <li><a href="education.html" aria-current="page">ประวัติการศึกษา</a></li>
     <li><a href="activities.html">ผลงาน</a></li>
     <li><a href="contact.html">ติดต่อ</a></li>
   </ul>
@@ -29,33 +29,34 @@
 
 <main>
   <header class="page-header reveal">
-    <span class="eyebrow"><span class="dash"></span>I &middot; About<span class="dash"></span></span>
-    <h1>ประวัติส่วนตัว</h1>
+    <span class="eyebrow"><span class="dash"></span>II &middot; Education<span class="dash"></span></span>
+    <h1>ประวัติการศึกษา</h1>
   </header>
 
   <div class="card royal-frame reveal">
-    <div class="profile-block">
-      <!-- เมื่อมีรูปโปรไฟล์: ลบ div.profile-photo-placeholder ด้านล่าง แล้วใส่แทนด้วย
-           <img class="profile-photo" src="images/ชื่อไฟล์.png" alt="รูปธนยศ น้อยจันทร์"> -->
-      <div class="profile-photo-placeholder">
-        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 18h18l-1.4-7-4.1 3.2L12 8l-3.5 6.2L4.4 11 3 18z" stroke="#C9A24E" stroke-width="1.4" stroke-linejoin="round"/></svg>
-        <span>ใส่รูปโปรไฟล์ของคุณที่นี่</span>
-      </div>
-
-      <dl class="info-list">
-        <dt>ชื่อ</dt><dd>ธนยศ น้อยจันทร์</dd>
-        <dt>ชื่อเล่น</dt><dd>พอลลี่</dd>
-        <dt>วันเกิด</dt><dd class="placeholder">-- กรอกวันเกิดของคุณ --</dd>
-        <dt>เบอร์โทร</dt><dd class="placeholder">-- กรอกเบอร์โทรของคุณ --</dd>
-        <dt>ส่วนสูง</dt><dd class="placeholder">-- กรอกส่วนสูงของคุณ --</dd>
-        <dt>น้ำหนัก</dt><dd class="placeholder">-- กรอกน้ำหนักของคุณ --</dd>
-      </dl>
-    </div>
+    <!-- แก้ปี ชื่อโรงเรียน และรายละเอียดในแต่ละ <li> ให้ตรงกับของจริง -->
+    <ul class="timeline">
+      <li>
+        <span class="year">ระดับมัธยมศึกษาตอนปลาย</span>
+        <h3>-- กรอกชื่อโรงเรียน --</h3>
+        <p class="placeholder">-- กรอกรายละเอียด เช่น ชั้นปีและแผนการเรียน --</p>
+      </li>
+      <li>
+        <span class="year">ระดับมัธยมศึกษาตอนต้น</span>
+        <h3>-- กรอกชื่อโรงเรียน --</h3>
+        <p class="placeholder">-- กรอกรายละเอียด เช่น เกรดเฉลี่ย --</p>
+      </li>
+      <li>
+        <span class="year">ระดับประถมศึกษา</span>
+        <h3>-- กรอกชื่อโรงเรียน --</h3>
+        <p class="placeholder">-- กรอกรายละเอียด เช่น เกรดเฉลี่ย --</p>
+      </li>
+    </ul>
   </div>
 
   <div class="note reveal">
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M12 8v5M12 16h.01" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-    <span>ช่องที่ขึ้นว่า &ldquo;กรอก...ของคุณ&rdquo; เป็นช่องว่างไว้ให้เติมข้อมูลจริงในไฟล์ personal.html</span>
+    <span>สามารถเพิ่ม/ลบ &lt;li&gt; ในไฟล์ education.html เพื่อเพิ่มระดับการศึกษาใหม่ได้ตามต้องการ</span>
   </div>
 </main>
 
